@@ -1,0 +1,73 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+         :root {
+            --color-sedans: hsl(31, 77%, 52%);
+            --color-suvs: hsl(184, 100%, 22%);
+            --color-luxury: hsl(179, 100%, 13%);
+            --padding20px: 20px;
+        }
+        
+        .box__sedans {
+            background-color: var(--color-sedans);
+        }
+        
+        .box__luxury {
+            background-color: var(--color-luxury);
+        }
+        
+        .box__suvs {
+            background-color: var(--color-suvs);
+        }
+        
+        .btn_sedans {
+            color: var(--color-sedans);
+        }
+        
+        .btn_suvs {
+            color: var(--color-suvs);
+        }
+        
+        .btn_luxury {
+            color: var(--color-luxury);
+        }
+        
+        .descricao__geral {
+            display: flex;
+            padding: 20px;
+        }
+        
+        .box__geral {
+            width: calc(99% / 3);
+            float: left;
+            text-align: left;
+            color: white;
+            padding: 30px;
+        }
+        
+        .img__carro {
+            padding: var(--padding20px) 0px;
+        }
+        
+        .titulo__descricao {
+            padding: var(--padding20px) 0px;
+        }
+        
+        .texto__descricao {
+            padding: var(--padding20px) 0px;
+        }
+        
+        .button__descricao {
+            padding: 30px 0px;
+            /*margin: 4px 2px;*/
+            text-align: left;
+        }
+        
+        .btn__more {
+            cursor: pointer;
+            border-radius: 20px;
+            border: none;
+            padding: 10px 25px;
+        }

@@ -1,0 +1,100 @@
+    body {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Lexend Deca";
+    }
+    
+     :root {
+        --color-sedans: hsl(31, 77%, 52%);
+        --color-suvs: hsl(184, 100%, 22%);
+        --color-luxury: hsl(179, 100%, 13%);
+    }
+    
+    .main__geral {
+        height: max-content;
+        background-color: hsl(0, 0%, 95%);
+    }
+    
+    .descricao__geral {
+        flex-direction: column;
+        padding: 30px;
+        display: flex;
+        color: white;
+    }
+    
+    .box__sedans {
+        background-color: var(--color-sedans);
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .box__luxury {
+        background-color: var(--color-luxury);
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .box__suvs {
+        background-color: var(--color-suvs);
+    }
+    
+    .btn_sedans {
+        color: hsl(31deg 77% 52% / 75%);
+        font-weight: 700;
+    }
+    
+    .btn_suvs {
+        color: hsl(184deg 100% 22% / 75%);
+        font-weight: 700;
+    }
+    
+    .btn_luxury {
+        color: hsl(179deg 100% 13% / 75%);
+        font-weight: 700;
+    }
+    
+    .box__geral {
+        padding: 20px 40px;
+        text-align: left;
+    }
+    
+    .texto__descricao {
+        padding: 20px 0px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .titulo__descricao,
+    .sedans,
+    .luxury,
+    .luxury {
+        font-family: 'Big Shoulders Display';
+        font-weight: 700;
+        font-size: 40px;
+    }
+    
+    .img__carro {
+        margin: 20px 0px;
+    }
+    
+    .button__descricao {
+        font-weight: 700;
+        padding: 40px 0px;
+        text-align: left;
+    }
+    
+    .btn__more {
+        cursor: pointer;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 25px;
+    }
+    
+    @media(min-width: 375px) {
+        .descricao__geral {
+            flex-direction: row;
+        }
+        .box__sedans {
+            border-radius: 10px 0px 0px 10px;
+        }
+        .box__luxury {
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
