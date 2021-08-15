@@ -10,7 +10,7 @@
         --color-luxury: hsl(179, 100%, 13%);
     }
     
-    .main__geral {
+    main {
         height: max-content;
         background-color: hsl(0, 0%, 95%);
     }
