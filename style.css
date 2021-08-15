@@ -88,8 +88,12 @@
     }
     
     @media(min-width: 375px) {
+        main {
+            margin: 20px;
+        }
         .descricao__geral {
             flex-direction: row;
+            padding: 100px;
         }
         .box__sedans {
             border-radius: 10px 0px 0px 10px;
