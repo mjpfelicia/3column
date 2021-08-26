@@ -93,7 +93,7 @@
             padding: 10px 25px;
         }
         
-        @media(min-width: 375px) {
+        @media(min-width: 400px) {
             main {
                 margin: 20px;
             }
